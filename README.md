@@ -1,2 +1,3 @@
-# php-url-router-adapter
-A PHP library to provide an abstract layer to use various micro frameworks of URL routing.
+# angus
+
+> A PHP adapter that provide a abstract layer to use various micro frameworks of URL routing in your application.
