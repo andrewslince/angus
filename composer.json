@@ -1,0 +1,16 @@
+{
+    "name": "andrews/angus",
+    "description": "A PHP adapter that provide a abstract layer to use various micro frameworks of URL routing in your application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrews Lince",
+            "email": "andrews.lince@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "slim/slim": "^3.6"
+    }
+}
