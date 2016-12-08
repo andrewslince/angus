@@ -24,6 +24,8 @@
  * SOFTWARE.
  */
 
+namespace Angus\Router\Provider;
+
 use Angus\Router\Provider\ProviderInterface;
 
 /**
