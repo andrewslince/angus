@@ -38,34 +38,34 @@ class Slim implements ProviderInterface
      * @since 1.0.0
      * @var   \Slim\App
      */
-    private function $container = null;
+    private $container = null;
 
     /**
      * @author Andrews Lince <andrews.lince@gmail.com>
      * @since  1.0.0
      * @param  array $config
      */
-    public function construct(array $config)
+    public function __construct(array $config)
     {
         $this->container = new \Slim\App($config);
     }
 
-    public function get($path, $callback)
+    public function get($path, $callback = null)
     {
         return $this->container->get($path, $callback);
     }
 
-    public function post($path, $callback)
+    public function post($path, $callback = null)
     {
         return $this->container->post($path, $callback);
     }
 
-    public function put($path, $callback)
+    public function put($path, $callback = null)
     {
         return $this->container->put($path, $callback);
     }
 
-    public function delete($path, $callback)
+    public function delete($path, $callback = null)
     {
         return $this->container->delete($path, $callback);
     }
